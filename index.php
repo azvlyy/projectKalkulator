@@ -164,7 +164,7 @@
 
     <section class="home">
         <div class="home-content">
-            <h1>Program Kalkulator</h1>
+            <h1>Program Calculator</h1>
         </div>
     </section>
 
