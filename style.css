@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    background-color: #fdfdfd;
+    color: #fdfdfd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    position: relative;
+    max-width: 300px;
+    width: 200%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: #17181a;
+    box-shadow: 20px 25px 25px rgba(0, 0, 0, 0.30);
+}
+
+.inpt {
+    background: #17181a;
+    height: 90px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    font-size: 40px;
+    color: #fff;
+    pointer-events: none;
+}
+
+.butn-angka {
+    display: inline;
+    width: 50px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #303136;
+    color: #29a8ff;
+    transition: all .1s ease; 
+}
+
+.butn-sama {
+    display: inline;
+    width: 50px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #118cff;
+    color: #fff;
+    transition: all .1s ease; 
+}
+
+.butn-operator {
+    width: 50px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #005db2;
+    color: #eaeaea;
+}
+
+.butn-clear{
+    width: 235px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #303136;
+    color:#29a8ff;
+    transition: all .1s ease;    
+}
+
+.butn-clear:hover {
+    background-color: rgb(49, 173, 223);
+    color: #fff;
+}
+
+.butn-operator:hover {
+    background-color: #118cff
+}
+
+.butn-angka:hover {
+    background-color: #eaeaea4d;
+}
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    padding-left: 30px;
+    color: #333;
+}
+
+.home-content {
+    max-width: 650px;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.0;
+}
+
+.home-content h3 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #118cff;
+}
+.home-content h5 {
+    font-weight: 700;
+    margin-left: 2px;
+    margin-bottom: 8px;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.p-width {
+    width: 75%;
+    margin-left: 3px;
+}
